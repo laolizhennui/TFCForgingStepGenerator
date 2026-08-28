@@ -17,7 +17,7 @@ constexpr int MAX_VAL = 150;
 constexpr int OFFSET = 150;
 constexpr int STATE_COUNT = MAX_VAL - MIN_VAL + 1; // 301
 
-constexpr int steps[] = {-3, -6, -9, -15, 2, 7, 13, 16};
+constexpr int steps[] = {-15, -9, -6, -3, 2, 7, 13, 16};
 constexpr int step_count = sizeof(steps) / sizeof(steps[0]);
 
 struct StateInfo {
