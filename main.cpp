@@ -8,7 +8,7 @@
 #include <windows.h>
 #endif
 
-#define ERROR_CODE (-1)
+#define ERROR_CODE 8
 
 using namespace std;
 
